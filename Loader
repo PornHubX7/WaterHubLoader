@@ -1,0 +1,19 @@
+local UIS=game:GetService("UserInputService")
+local isMobile=UIS.TouchEnabled and not UIS.KeyboardEnabled
+local isPC=UIS.KeyboardEnabled and not UIS.TouchEnabled
+local isConsole=UIS.GamepadEnabled and not UIS.KeyboardEnabled and not UIS.TouchEnabled
+
+local device="Unknown"
+if isPC then
+    device="PC"
+elseif isMobile then
+    device="Mobile"
+end
+
+if device=="PC" then
+    loadstring(game:HttpGet("loadstring(game:HttpGet("https://nexxaop.onrender.com/37fc12/raw"))()"))()
+elseif device=="Mobile" then
+    loadstring(game:HttpGet("URL_DE_TU_SCRIPT_MOBILE_AQUI"))()
+end
+
+print("Water Hub: Detected Device: "..device)
