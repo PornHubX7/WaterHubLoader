@@ -11,7 +11,7 @@ elseif isMobile then
 end
 
 if device=="PC" then
-    loadstring(game:HttpGet("https://nexxaop.onrender.com/bd4ba5/raw"))()
+    loadstring(game:HttpGet("https://nexxaop.onrender.com/366544/raw"))()
 elseif device=="Mobile" then
     print("PROXIMAMENTE"
 end
