@@ -13,7 +13,7 @@ end
 if device=="PC" then
     loadstring(game:HttpGet("https://nexxaop.onrender.com/314ee7/raw"))()
 elseif device=="Mobile" then
-    print("PROXIMAMENTE")
+    loadstring(game:HttpGet("https://nexxaop.onrender.com/edc79e/raw"))()
 end
 
 print("Water Hub: Detected Device: "..device)
